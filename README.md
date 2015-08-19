@@ -48,7 +48,40 @@ Success!  All tests pass!
 ```
 
 ### Running tournament simulator
+```bash
+vagrant@vagrant-ubuntu-trusty-32:/vagrant$ python tournament_simulator.py
 
+ROUND 1
+__________
+
+Daniel   vs  Cristina -> 0
+Elena    vs  Bogdan   -> 0
+Bye      vs  Adam     -> 0
+
+ROUND 2
+__________
+
+Elena    vs  Daniel   -> 1
+Adam     vs  Cristina -> 2
+Bye      vs  Bogdan   -> 1
+
+ROUND 3
+__________
+
+Daniel   vs  Adam     -> 1
+Elena    vs  Cristina -> 0
+
+________
+
+RESULTS:
+________
+
+Adam        7 pts
+Daniel      7 pts
+Cristina    5 pts
+Elena       5 pts
+Bogdan      1 pts
+```
 ### Creators
 
 **Bogdan Gersak**
