@@ -31,6 +31,8 @@ for round in range(0, rounds):
     for pair in pairs:
         if pair[2] == None:
             result = 1
+        elif pair[0] == None:
+            result = 2
         else:
             result = random.randint(0, 2)
         tournament.reportMatch(chess_tournament, pair[0], pair[2], result)
